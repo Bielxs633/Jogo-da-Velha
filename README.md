@@ -13,9 +13,8 @@ Este projeto é uma versão do clássico **Jogo da Velha** (ou **Tic-Tac-Toe**).
 
 ## Funcionalidades
 1. **Modo 2 Jogadores**: Dois jogadores alternam os turnos para jogar no mesmo dispositivo.
-2. **Modo 1 Jogador**: Um jogador joga contra a CPU.
-3. **Reconhecimento de Vitórias e Empates**: O jogo verifica automaticamente o vencedor ou se houve empate.
-4. **Reinício do Jogo**: Botão para reiniciar a partida.
+2. **Reconhecimento de Vitórias e Empates**: O jogo verifica automaticamente o vencedor ou se houve empate.
+3. **Reinício do Jogo**: Botão para reiniciar a partida.
 
 ---
 
