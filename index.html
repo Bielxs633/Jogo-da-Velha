@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)file:///C:/Users/igor1/Desktop/v2.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jogo da Nova</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <h1 class="div2">Jogo da velha</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+                <td onclick="makeMove(this)"></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <button class="reset-button" onclick="reset()">Reiniciar partida</button>
+
+    <div class="file-input-container">
+        <label for="dropzone" class="file-input-label">
+            <span class="file-input-icon">📁</span> Escolher imagem para o X
+        </label>
+        <input type="file" id="dropzone" class="file-input" onchange="handleImageUpload(event)">
+        <img id="previewX" class="preview-image hidden" alt="Preview X">
+    </div>
+
+    <div class="file-input-container">
+        <label for="dropzone2" class="file-input-label">
+            <span class="file-input-icon">📁</span> Escolher imagem para o O
+        </label>
+        <input type="file" id="dropzone2" class="file-input" onchange="handleImageUpload(event)">
+        <img id="previewO" class="preview-image hidden" alt="Preview O">
+    </div>
+
+</body>
+
+</html>
